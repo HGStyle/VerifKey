@@ -1,7 +1,7 @@
 # VerifKey - Module for verifing license keys in Python
 Please leave credits if you use this module or you repost it / you update it ! Thanks !
 
-WARNING : Don't try to install the module using pip, it's NOT working ! The setuptools file I maked does not works ! Just copy / download the VerifKey.py on your programm folder. <a href="https://github.com/HGStyle/VerifKey/issues/1#issuecomment-1216361432">See issue #1</a> to know how to install this module.
+WARNING : Don't try to install the module using pip, it's NOT working ! The setuptools file I maked does not works ! Just copy / download the VerifKey.py on your programm folder. <a href="https://github.com/HGStyle/VerifKey/issues/1#issuecomment-1216361432">See issue #1</a> to know how to install this module. (See NOTE to download)
 
 How to use ?
 
@@ -64,3 +64,5 @@ print('hello')
 #end of your programm here
 exit()
 ```
+**NOTE : You can download the ZIP only on PC. ZIP can be downloaded with : Code -> Download with HTTPS as ZIP.
+You can download the VerifKey file without all others files <a href="https://raw.githubusercontent.com/HGStyle/VerifKey/main/VerifKey.py" download="VerifKey.py">by clicking this link</a>** (It can does not work on some browsers, so just copy the code and paste it on a new programm, save it as VerifKey.py)
