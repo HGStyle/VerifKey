@@ -25,12 +25,17 @@ def verify(link, userkey):
 
 def keyGenerator(amount):
     charset = string.ascii_letters + string.digits
+    hashedkeys = []
+    keys = []
     for x in range(amount):
         key = ""
         for y in range(20):
             key += random.choice(charset)
         hashedKey = hashlib.sha512(key.encode()).hexdigest()
         print(key, ":", hashedKey)
-        with open("keys.txt", "a") as f:
+        with open("hashedkeys.txt", "a") as f:
             f.write(hashedKey + "\n")
+        with open('keys.txt', 'a') as f:
+            f.write(key + "\n")
     print("Finished !")
+    
