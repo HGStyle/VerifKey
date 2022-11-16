@@ -1,7 +1,7 @@
 # VerifKey - Module for verifing license keys in Python
 Please leave credits if you use this module or you repost it / you update it ! Thanks !
 
-WARNING : Don't try to install the module using pip, it's NOT working ! The setuptools file I maked does not works ! Just copy / download the VerifKey.py on your programm folder. <a href="https://github.com/HGStyle/VerifKey/issues/1#issuecomment-1216361432">See issue #1</a> to know how to install this module. (See NOTE to download)
+WARNING : Don't try to install the module using pip, it's NOT working ! The setuptools file I made does not works ! Just copy / download the VerifKey.py on your programm folder. <a href="https://github.com/HGStyle/VerifKey/issues/1#issuecomment-1216361432">See issue #1</a> to know how to install this module. (See NOTE to download)
 
 How to use ?
 
