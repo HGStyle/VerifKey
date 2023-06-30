@@ -1,19 +1,16 @@
 import urllib.request as request, os, hashlib, random, string
 
 def getPB(pb):
-    return "https://pastebin.com/raw/" + str(pb)
+    return f"https://pastebin.com/raw/{str(pb)}"
 
 def verify(link, userkey):
     req = request.urlopen(link)
     text = req.read()
     text = text.decode()
     keys = text.split("\r")
-    temp = []
     for x in range(0, len(keys)):
         keys[x] = str(keys[x]).replace("\n", "")
-    for x in range(0, len(keys)):
-        if x != len(keys):
-            temp.append(keys[x])
+    temp = [keys[x] for x in range(0, len(keys)) if x != len(keys)]
     keys = temp
     hashedUserKey = hashlib.sha512(userkey.encode()).hexdigest()
     for hashedKey in keys:
@@ -26,10 +23,8 @@ def keyGenerator(amount):
     charset = string.ascii_letters + string.digits
     hashedkeys = []
     keys = []
-    for x in range(amount):
-        key = ""
-        for y in range(20):
-            key += random.choice(charset)
+    for _ in range(amount):
+        key = "".join(random.choice(charset) for _ in range(20))
         hashedKey = hashlib.sha512(key.encode()).hexdigest()
         with open("hashedkeys.txt", "a") as f:
             f.write(hashedKey + "\n")

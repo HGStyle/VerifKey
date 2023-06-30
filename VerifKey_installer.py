@@ -22,7 +22,7 @@ except ImportError:
 
 # Install VerifKey
 try:
-	shutil.move('VerifKey.py', libdir + 'VerifKey.py')
+	shutil.move('VerifKey.py', f'{libdir}VerifKey.py')
 except PermissionError:
 	print('Please run this programm as administrator/root !')
 	os.remove('VerifKey.py')
