@@ -1,4 +1,6 @@
 # VerifKey - Module for verifing license keys in Python
+
+## DO NOT USE THIS. IT WAS BROKEN, ITS STILL BROKEN AND WILL BE BROKEN FOREVER BECAUSE I DONT WANT TO UPDATE IT. THE MODULE ISNT BROKEN ITSELF, JUST THE INSTALLER. BUT I DONT WANT TO SUPPORT THIS. THIS WAS MADE LESS THAN A YEAR AGO (when i wrote that) BUT I EVOLVED AND THIS SHOULD NOT BE USED ANYMORE. CODE RELEASED UNDER THE UNLICENSE.
 Please leave credits you repost it / you update it ! Thanks !
 
 **Now in version 2 ! Please use `VerifKey_installer.py` file to install VerifKey in the latest version.**
